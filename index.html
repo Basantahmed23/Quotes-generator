@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/quotes.png" />
+    <title>Quote of the day</title>
+  </head>
+  <body>
+    <div class="home d-flex justify-content-center align-items-center min-vh-100">
+      <div class="container">
+        <div class="card text-center p-5 shadow-lg">
+          <h1>Quote of the day</h1>
+          <div class="home-content py-3 mx-w">
+            <p id="quote">Click on the button below to get a quote</p>
+            <p id="author"></p>
+            <button
+              class="btn main-btn rounded-5 border-0 px-4 mt-3"
+              onclick="newQuote()"
+            >
+              New Quote
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
